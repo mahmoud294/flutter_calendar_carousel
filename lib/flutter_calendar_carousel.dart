@@ -672,9 +672,8 @@ class _CalendarState<T extends EventInterface>
                     return Container();
                   }
                   final markedDatesMap = widget.markedDatesMap;
-                  if (widget.markedDateCustomTextStyle != null &&
-                      markedDatesMap != null &&
-                      markedDatesMap.getEvents(now).length > 0) {
+                  if (widget.markedDateCustomTextStyle != null
+                     ) {
                     textStyle = widget.markedDateCustomTextStyle;
                   }
                   bool isSelectable = true;
